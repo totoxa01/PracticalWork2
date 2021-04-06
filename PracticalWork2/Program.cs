@@ -6,8 +6,9 @@ namespace PracticalWork2
     {        
         static void Main(string[] args)
         {
-            Console.WriteLine($"Среднесуточная температура: {ClassAverageDailyTemperature.AverageDailyTemperature()}");
-            Classes.ClassMonths.NameMonth();
+            //Console.WriteLine($"Среднесуточная температура: {ClassAverageDailyTemperature.AverageDailyTemperature()}");
+            //Classes.ClassMonths.NameMonth();
+            Classes.ClassEvenNumbers.EvenNumber();
         }
     }
 }
