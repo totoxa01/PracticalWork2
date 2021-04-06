@@ -8,7 +8,8 @@ namespace PracticalWork2
         {
             //Console.WriteLine($"Среднесуточная температура: {ClassAverageDailyTemperature.AverageDailyTemperature()}");
             //Classes.ClassMonths.NameMonth();
-            Classes.ClassEvenNumbers.EvenNumber();
+            //Classes.ClassEvenNumbers.EvenNumber();
+            Classes.ClassCheque.Cheque();
         }
     }
 }
