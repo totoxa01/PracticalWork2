@@ -6,11 +6,8 @@ namespace PracticalWork2.Classes
 {
     class ClassMonths
     {
-        public static void NameMonth()
-        {
-            Console.WriteLine("Введите порядковый номер текущего месяца");
-            int number = Int32.Parse(Console.ReadLine());
-
+        public static void NameMonth(int number)
+        {            
             switch (number)
             {
                 case 1:
