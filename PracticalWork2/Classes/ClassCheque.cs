@@ -8,8 +8,7 @@ namespace PracticalWork2.Classes
     {
         public static void Cheque()
         {
-            int orderNumber = 120;
-            DateTime date = new DateTime();
+            int orderNumber = 120;            
             Console.WriteLine("\t       ЗАО \"МОСКВА-МАКДОНАЛЬДС\"\n" +
                 "\t  Москва, Волгоградский пр-кт, 24/2\n" +
                 "\t\t WWW.MCDONALDS.ru\n" +
@@ -22,7 +21,11 @@ namespace PracticalWork2.Classes
                 $"\t\t*КАССОВЫЙ ЧЕК*\n" +
                 $"\t\t   *ПРИХОД*\n" +
                 $"латте\t\t    НДС 18%\t\t 99.00\n" +
-                $"ИТОГ\t\t\t\t\t*99.00\n") ;
+                $"ИТОГ\t\t\t\t\t*99.00\n" +
+                $"\t В т.ч. налоги\n" +
+                $"НДС 18%\t\t\t\t\t 17.82\n" +
+                $"КАССИР Марданов К. " +
+                $"ДАТА {DateTime.Now}") ;
 
         }
     }
